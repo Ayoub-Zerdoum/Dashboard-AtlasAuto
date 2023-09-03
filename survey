@@ -1,0 +1,119 @@
+the columns are: columns=['TV', 'MV', 'AF', 'FE', 'DE', 'RV', 'G', 'PR', 'SF', 'TAS', 'FRDV', 'C', 'R', 'S', 'TP']
+these are the survey questions:
+1.Quel est le type de votre voiture ? (Haval, Foton, Great Wall)
+[Choix multiple]
+Haval
+Foton
+Great Wall
+TV: Type de voiture
+
+2.Quel est le modèle de votre voiture ?
+Haval:
+    HAVAL Jolion
+    HAVAL H6
+Foton:
+    Gratour V5
+    SAUVANA
+    TUNLAND
+Great Wall:
+    WINGLE 5 DOUBLE CABINE
+    POER
+MV: Modèle de voiture
+
+3.Quelle est l'année de fabrication de votre voiture ?
+[Zone de texte pour l'année]
+AF: Année de fabrication
+
+
+4.À quelle fréquence effectuez-vous l'entretien régulier de votre voiture ?
+[Choix unique]
+Tous les 5 000 km
+Tous les 10 000 km
+Tous les 15 000 km
+Tous les 20 000 km
+FE: Fréquence d'entretien
+
+
+5.Date prévue pour l'entretien :
+[Zone de texte pour la date]
+DE: Date d'entretien
+
+6.Raison de la visite :
+[Choix unique]
+Entretien régulier en usine
+Une panne urgente
+RV: Raison de la visite
+
+
+7.Votre voiture est-elle encore sous garantie ?
+[Choix unique]
+Oui
+Non
+G: Sous garantie
+
+8.Tous les problèmes de votre véhicule ont-ils été entièrement résolus (sur une échelle de 0 à 10) :
+[Choix unique] 0-10
+PR: Problèmes résolus
+
+9.Évaluez votre satisfaction concernant l'explication des frais (sur une échelle de 0 à 10) :
+[Choix unique] 0-10
+SF: Satisfaction des frais
+
+
+10.Achèvement du service dans le délai promis (sur une échelle de 0 à 10) :
+[Choix unique]0-10
+TAS: Achèvement du service
+
+11.Facilité de prise de rendez-vous pour le service (sur une échelle de 0 à 10) :
+[Choix unique] 0-10
+FRDV: Facilité de prise de rendez-vous
+
+
+12.Coût des services (sur une échelle de 0 à 10) :
+[Choix unique]0-10
+C: Coût des services
+
+
+13.Souhaitez-vous recevoir des rappels d'entretien par e-mail ou SMS ?
+[Choix unique]
+Oui
+Non
+R: Recevoir des rappels
+
+14.Satisfaction du client (sur une échelle de 0 à 10) :
+[Choix unique]0-10
+S: Satisfaction du client
+
+15.Type de panne 
+pannes = ['Problèmes électriques', 'Problèmes de suspension', 'Surchauffe', 'Fumée du moteur', 'Démarrage difficile']
+TP: Type de panne
+
+the requirements for the data: 
+#i want a large difference between the number of Haval cars and the other 2 ,
+#i want the G col to have more 'non' than 'yes'
+#i want the RV col to have more 'Entretien régulier en usine'
+#i want PR,SF,TAS,FRDV,C,S to be in relation witheach other, they all rize together time and get lower together 
+#i want the avg of S to be higher than 7
+#i want PR,SF,TAS,FRDV,C,S to be in relation with TP (for the 'Problèmes électriques' value ,there avg is low )
+
+
+
+
+
+//fichier csv short cuts:
+TV: Type de voiture
+MV: Modèle de voiture
+AF: Année de fabrication
+FE: Fréquence d'entretien
+DE: Date d'entretien
+RV: Raison de la visite
+G: Sous garantie
+PR: Problèmes résolus
+SF: Satisfaction des frais
+TAS: Achèvement du service
+FRDV: Facilité de prise de rendez-vous
+C: Coût des services
+R: Recevoir des rappels
+S: Satisfaction du client
+TP: Type de panne
+

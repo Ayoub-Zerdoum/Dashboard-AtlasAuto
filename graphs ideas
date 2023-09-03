@@ -1,0 +1,27 @@
+le type de visite (régulière ou urgence)
+le niveau de satisfaction du client
+garantie ou non,
+la répartition des types de voitures (Haval, Foton, Great Wall) 
+proportion des visites sous garantie et hors garantie.
+Diagramme en aires empilées : la répartition des raisons de visite en fonction du type de voiture.
+relation entre kilométrage et nb pannes pour chaque type de voiture
+Graphique en courbes : la fréquence d'entretien au fil du temps
+
+
+Heatmap : Utilisez un heatmap pour visualiser la corrélation entre différentes variables, par exemple, la corrélation entre la frequence du kilometrage , type de panne.
+Diagramme en radar : comparer plusieurs voitures en fonction des types des pannes
+type de panne et problemes resolus 
+
+
+diagramme a barre :
+    Nombre de visites pour chaque modèle de voiture 
+    Satisfaction du client moyenne pour chaque modèle de voiture.(incertain)
+
+
+diagramme circulaire: 
+    Répartition du type de visite (régulière ou urgence).
+    Répartition des visites sous garantie et hors garantie.
+
+histogrammes:
+    Distribution de la satisfaction du client    
+    Distribution du satisfaction du coût des services
